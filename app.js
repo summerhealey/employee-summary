@@ -98,6 +98,34 @@ function addEngineer () {
 })
 }
 
+function buildTeam() {
+    prompt([{
+        type: "list",
+        name: "teamRoles",
+        choices: [
+            "Manager",
+            "Intern",
+            "Engineer", 
+            "None",
+        ],
+        message: "Please choose the team member's role." 
+    }]).then(function(answers) {
+        switch(answers.teamRoles) {
+            case "Intern":
+             addIntern()
+              break;
+            case "Engineer":
+              addEngineer()
+              break;
+            default:
+              generateTeam()
+          }
+    }
+)};
+
+
+
+
 
 
 
