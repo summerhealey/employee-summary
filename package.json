@@ -1,0 +1,22 @@
+{
+  "name": "employee-summary",
+  "version": "1.0.0",
+  "description": "Creates an employee summary for client.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerhealey/employee-summary.git"
+  },
+  "author": "Summer Healey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/summerhealey/employee-summary/issues"
+  },
+  "homepage": "https://github.com/summerhealey/employee-summary#readme",
+  "dependencies": {
+    "inquirer": "^7.3.2"
+  }
+}
