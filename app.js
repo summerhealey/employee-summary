@@ -123,7 +123,16 @@ function buildTeam() {
     }
 )};
 
-
+function generateTeam() {
+    const employees = render(team);
+    fs.writeFile(outputPath, employees, function(err) {
+        if(err){
+            console.log(err);
+        }
+            console.log("Data entered!");
+    })
+      
+};
 
 
 
