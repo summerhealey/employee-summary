@@ -41,6 +41,62 @@ function getManagerInfo() {
 })
 }
 
+function addIntern() {
+    prompt([
+    {
+        type: "input",
+        name: "internName",
+        message: "Please enter the intern's name: "
+    },{
+        type: "input",
+        name: "internId",
+        message: "Enter the intern's id: "
+    },
+    {
+        type: "input",
+        name: "internEmail",
+        message: "Enter the intern's email: "
+    },
+    {
+        type: "input",
+        name: "internSchool",
+        message: "Enter the intern's educational institution: "
+    }
+]).then(function(answers) {
+    const intern = new Intern(answers.internName, answers.internId, answers.internEmail, answers.internSchool)
+    team.push(intern)
+    buildTeam()
+})
+}
+
+function addEngineer () {
+    prompt([
+    {
+        type: "input",
+        name: "engineerName",
+        message: "Please enter the engineer's name: "
+    },
+    {
+        type: "input",
+        name: "engineerId",
+        message: "Enter the engineer's id: "
+    },
+    {
+        type: "input",
+        name: "engineerEmail",
+        message: "Enter the engineer's email: "
+    },
+    {
+        type: "input",
+        name: "engineerGithub",
+        message: "Enter the engineer's GitHub: "
+    }
+]).then(function(answers) {
+    const engineer = new Engineer(answers.engineerName, answers.engineerId, answers.engineerEmail, answers.engineerGithub)
+    team.push(engineer)
+    buildTeam()
+})
+}
 
 
 
