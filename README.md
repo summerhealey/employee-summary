@@ -39,13 +39,14 @@ The following animation demonstrates the client's request for application functi
 Client Demo:
 
 ![Employee Summary Image #1](./assets/images/10-OOP-homework-demo-1.png)
+
 ![Employee Summary Image #2](./assets/images/10-OOP-homework-demo-2.png)
 
 Application Demo: 
 ![Deployed Application Screenshot](./assets/images/employeeSummary.jpg)
 
 Video Demo:
-![Video Demonstration of Application](https://drive.google.com/file/d/1seF-hg-FnG3xnGFsyl_ATBg5TJiC36MW/view)
+![Video Demonstration of Application](https://drive.google.com/file/d/1saFM2sfG6BqRk05ny8wVJew0i9lO7ZRG/view)
 
 GitHub Repository: https://github.com/summerhealey/employee-summary/ 
 
